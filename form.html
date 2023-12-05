@@ -110,6 +110,15 @@
 			transform:rotate(360deg);
 		}
 
+		label {
+			text-align:left;
+			padding-left:110px;
+		}
+
+		.exp {
+			padding-left:0;
+		}
+		
 		@media (max-width:1120px) {
 		#content {
 			margin:0 auto;
@@ -149,8 +158,8 @@
 
 			<div class="form-row-special">
 				<label class="main-label">How would you like to be notified about your commission?</label>
-				<input type="checkbox" value="em" name="e" id="e"><label for="e">Email</label>
-				<input type="checkbox" value="sms" name="s" id="s"><label for="s">SMS(text message)</label>
+				<input type="checkbox" value="em" name="e" id="e"><label class="exp" for="e">Email</label>
+				<input type="checkbox" value="sms" name="s" id="s"><label class="exp" for="s">SMS(text message)</label>
 			</div>
 
 			<div class="form-row">
